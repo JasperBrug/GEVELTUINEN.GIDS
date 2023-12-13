@@ -1,0 +1,73 @@
+body {
+    font-family: 'verdana';
+    color: rgb(0, 0, 0);
+    background-color: rgb(156, 222, 247);
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-size: 20px;
+    width: 50%;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: white;
+    padding: 60px;
+    max-height: 100%;
+    font-family: 'impact';
+    font-size: 30px;
+
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: red;
+    font-size: larger;
+}
+
+header {
+    background-color: white;
+    margin-top: auto;
+}
+
+
+article img {
+    width: 30%;
+    height: 30%;
+    border: 3px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    background-color: white;
+
+    margin-left: 3em;
+}
+
+h1 {
+    width: 100%;
+}
+
+article {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img {
+    width: 20%;
+    height: 20%;
+    border-radius: 20%;
+    margin-left: 3em;
+}
+
+.quest2 {
+    float: right;
+    margin-right: 10em;
+    width: 30%;
+    height: 30%;
+}
