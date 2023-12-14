@@ -25,13 +25,16 @@ nav {
 
 nav a {
     text-decoration: none;
+    transition: all 250ms ease;
 }
 
 nav a:hover {
     color: red;
     font-size: larger;
 }
-
+a:hover{
+    color: red;
+}
 header {
     background-color: white;
     margin-top: auto;
