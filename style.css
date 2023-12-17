@@ -1,7 +1,7 @@
 body {
     font-family: 'verdana';
     color: rgb(0, 0, 0);
-    background-color: rgb(156, 222, 247);
+    background-color: rgb(199, 216, 253);
     margin: 0;
     padding: 0;
 }
@@ -9,6 +9,19 @@ body {
 p {
     font-size: 20px;
     width: 50%;
+    margin-left: 3em;
+}
+
+:is(h1, h2, h3) {
+    margin-left: 3em;
+}
+
+ul {
+    margin-left: 3em;
+}
+
+u {
+    margin-left: 3em;
 }
 
 nav {
@@ -32,15 +45,31 @@ nav a:hover {
     color: red;
     font-size: larger;
 }
-a:hover{
-    color: red;
+a{
+    transition: all 250ms ease;
 }
+
+a:hover {
+    color: red;
+    font-size: larger;
+}
+
 header {
     background-color: white;
     margin-top: auto;
 }
 
-
+header img {
+    position: absolute;
+    height: auto;
+    width: 7%;
+    top: 1.5em;
+    margin-left: 1em;
+    transition: all 0.5s ease;
+}
+header img:hover{
+    transform: scale(1.25);
+}
 article img {
     width: 30%;
     height: 30%;
@@ -48,8 +77,12 @@ article img {
     border-radius: 4px;
     padding: 5px;
     background-color: white;
-
+    transition: all 3s ease;
     margin-left: 3em;
+}
+
+article img:hover {
+    transform: rotate(360deg);
 }
 
 h1 {
@@ -60,6 +93,10 @@ article {
     display: flex;
     flex-wrap: wrap;
 }
+article img{
+    display: flex;
+    align-items: flex-start;
+}
 
 img {
     width: 20%;
@@ -68,9 +105,17 @@ img {
     margin-left: 3em;
 }
 
-.quest2 {
+section img {
     float: right;
     margin-right: 10em;
     width: 30%;
     height: 30%;
 }
+
+.gifje {
+    float: right;
+    margin-right: 20em;
+    border: 5px solid black;
+    border-radius: 100px;
+}
+
